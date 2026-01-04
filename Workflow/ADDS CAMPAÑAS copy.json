@@ -1,0 +1,321 @@
+{
+  "name": "ADDS CAMPAÑAS copy",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "13853dea-a2f6-44b1-a930-beb480b6ffbf",
+        "responseMode": "responseNode",
+        "options": {
+          "allowedOrigins": "*",
+          "responseHeaders": {
+            "entries": [
+              {
+                "name": "Access-Control-Allow-Methods",
+                "value": "POST, OPTIONS"
+              },
+              {
+                "name": "Access-Control-Allow-Headers",
+                "value": "Content-Type"
+              },
+              {
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        }
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        256,
+        -208
+      ],
+      "id": "b4239c1a-4c18-4816-8b20-d4b9e27bfe86",
+      "name": "Webhook",
+      "webhookId": "13853dea-a2f6-44b1-a930-beb480b6ffbf"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "[\n  {\n    \"output\": {\n      \"SEGMENTO_1\": {\n        \"NOMBRE_Segmento\": \"Mulheres Conscientes de Coimbra\",\n        \"DESCRIPCION_automatica\": \"Mulheres de Coimbra, em união de facto, com 1 a 3 dependentes, entre 35 e 45 anos, com rendimento anual de 100.000 € a 150.000 €, procuram carros compactos automáticos pretos, usados, com motorização híbrida.\",\n        \"IDEAS_DE_CONTENIDO\": [\n          \"Coimbra: A Sua Vida Atarefada Pede um Compacto Híbrido! Um reel dinâmico mostrando uma mulher a conduzir um carro compacto preto pela cidade, estacionando facilmente, apanhando os filhos, e mostrando a eficiência do híbrido no trânsito urbano. Legenda: 'Conquiste Coimbra com estilo e eficiência. O seu dia a dia pede um compacto que acompanhe o seu ritmo. Descubra as vantagens do híbrido!'\",\n          \"Conforto e Economia: O Compacto Usado Ideal para Si. Focar no interior do carro, o espaço para a família, a tecnologia (ecrã tátil, conectividade), e como um carro usado de alta qualidade oferece tudo isso a um preço mais acessível. Mostrar um test drive suave.\",\n          \"Black is the New Green: Carros Híbridos Pretos que Vão Fazer Cabeças Virar. Um reel focado na estética, mostrando vários modelos compactos híbridos pretos, com detalhes do design, luzes LED, e interiores modernos. Música elegante e transições rápidas.\"\n        ],\n        \"Keyword_query\": [\n          \"Carros híbridos Coimbra\",\n          \"Compactos automáticos usados\",\n          \"Carro preto híbrido\",\n          \"Melhores carros para família pequena\",\n          \"Carros eficientes Coimbra\",\n          \"Veículos usados premium\",\n          \"Consumo compacto híbrido\",\n          \"Financiamento auto Coimbra\"\n        ]\n      },\n      \"SEGMENTO_2\": {\n        \"NOMBRE_Segmento\": \"Senhores Pragmáticos do Porto\",\n        \"DESCRIPCION_automatica\": \"Homens do Porto, divorciados, solteiros ou viúvos, com 2 a 4 dependentes, com mais de 60 anos, e com rendimento anual entre 10.000 € a 15.000 € ou 40.000 € a 60.000 €, compram preferencialmente carros da marca Kia ou Opel, do tipo subcompacto ou SUV, automáticos, de 4 portas, usados, a diesel ou GPL.\",\n        \"IDEAS_DE_CONTENIDO\": [\n          \"Porto Sem Limites: A Liberdade de um SUV ou Subcompacto Usado. Mostrar um homem mais velho, ativo, a usar o carro para lazer (pesca, golfe, visitar netos). Realçar a facilidade de condução automática e a versatilidade do carro para diferentes situações.\",\n          \"GPL/Diesel no Porto: Economia e Fiabilidade para os Seus Dias. Reel focado na economia de combustível. Comparar preços de combustível, mostrar a autonomia, e depoimentos de clientes sobre a fiabilidade dos modelos Kia/Opel. Dicas para manutenção.\",\n          \"Qualidade e Conforto: Carros Automáticos 4 Portas para a Sua Família. Destacar o espaço e o conforto dos bancos, a facilidade de entrada e saída (especialmente para pessoas mais velhas ou com crianças), e recursos de segurança. Mostrar o carro a ser usado para viagens em família.\"\n        ],\n        \"Keyword_query\": [\n          \"Carros usados Porto\",\n          \"SUV Kia Opel usados\",\n          \"Carros GPL Porto\",\n          \"Carros diesel automáticos\",\n          \"Carros 4 portas Porto\",\n          \"Veículos para seniores Porto\",\n          \"Carros fiáveis e económicos\",\n          \"Financiamento auto +60\"\n        ]\n      },\n      \"SEGMENTO_3\": {\n        \"NOMBRE_Segmento\": \"Executivos Dinâmicos de Lisboa\",\n        \"DESCRIPCION_automatica\": \"Homens de Lisboa, divorciados, com 3 dependentes, entre 38 e 60 anos, com rendimento anual de 15.000 € a 25.000 €, preferem carros da marca Mercedes-Benz, do tipo SUV, automáticos, de 4 portas, usados, a diesel ou híbridos a gasolina.\",\n        \"IDEAS_DE_CONTENIDO\": [\n          \"Lisboa ao Seu Ritmo: O SUV Mercedes-Benz Perfeito para o Pai Moderno. Um reel elegante e aspiracional, mostrando um homem a conciliar a vida profissional e familiar. Conduzir um SUV Mercedes-Benz pela cidade, a caminho do trabalho, depois a buscar os filhos na escola, mostrando o espaço e o status.\",\n          \"Desempenho e Tecnologia: Mercedes-Benz Usados que Impressionam. Foco nos atributos de luxo e desempenho da marca Mercedes-Benz. Mostrar detalhes do interior (estofos em pele, painel digital), recursos de assistência à condução e a potência do motor (diesel ou híbrido).\",\n          \"O Seu Próximo Carro em Lisboa: SUV Automático de Luxo Acessível. Abordar o aspeto 'usado' como uma oportunidade de adquirir um carro premium por um valor mais vantajoso. Testemunhos de clientes satisfeitos com a compra de um Mercedes-Benz usado. Dicas para escolher o melhor modelo.\"\n        ],\n        \"Keyword_query\": [\n          \"SUV Mercedes-Benz Lisboa\",\n          \"Carros automáticos usados\",\n          \"Mercedes-Benz diesel\",\n          \"Mercedes-Benz híbrido gasolina\",\n          \"SUV premium Lisboa\",\n          \"Carros 4 portas luxo\",\n          \"Financiamento Mercedes-Benz\",\n          \"Carros para pais ocupados\"\n        ]\n      }\n    }\n  }\n]",
+        "options": {
+          "responseCode": 200
+        }
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.4,
+      "position": [
+        1456,
+        -208
+      ],
+      "id": "220e8035-b321-48b9-bc89-e2a1aa5b228b",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        480,
+        -208
+      ],
+      "id": "65dfd15f-bcf1-4904-9736-a9a7dd635cf4",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "operation": "getAll",
+        "tableId": "client_data",
+        "returnAll": true
+      },
+      "type": "n8n-nodes-base.supabase",
+      "typeVersion": 1,
+      "position": [
+        704,
+        -208
+      ],
+      "id": "15194e9b-c791-4cd8-88fa-049b7feaf5dd",
+      "name": "Get many rows2",
+      "credentials": {
+        "supabaseApi": {
+          "id": "DlowGRcq8KfwBjs6",
+          "name": "test"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        1088,
+        32
+      ],
+      "id": "9c3e481e-2d8a-4b1b-bb71-3ebe1220629c",
+      "name": "Google Gemini Chat Model1",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "fkOqujx2oFzXQm9I",
+          "name": "test"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.data }}",
+        "hasOutputParser": true,
+        "messages": {
+          "messageValues": [
+            {
+              "message": "=Eres un especialista en marketing automotriz,segmentacion de datos y en generación de campañas publicitarias para redes sociales.  \n\nVas a recibir la informacion de una tabla y vas a analizar en cada campo de la tabla cual es la informacion que mas se repite.\n\ndespues con esos datos mas comunes que ya estragiste vas a tomar como clasificacion principal: {{ $('Webhook').item.json.body.elemento_principal }} y vas a hacer losiguiente:\n\nVAS A TOMAR LOS 3 VALORES QUE MAS SE REPITANN Y VAS A VER QUE ELEMENTOS TIENE UNO DE ESOS VALORES Y VAS A DEVOLVER CUALES SON LAS OTRAS CLASIFICACIONES QUE SE REPITEN EN CADA ELEMENTO CON ESA CLASIFICACION PRINCIPAL. \n\nDESPUES TENIENDO EN CUENTA ESA INFORMACION VAS A CREAR 3 SEGMENTOS QUE VAN A TENER COMO CLASIFICACION PRINCIPAL GENERO Y {{ $('Webhook').item.json.body.elemento_principal }} Y EL RESTO DE LAS CLASIFICACIONES COMO SECUNDARIAS.\nEJEMPLO: \"Mujeres de Coimbra casadas, con 1 dependiente, entre 30 y 40 años que ganan de 10k a 15k al año compran mas carros del tipo SUV, principalmente de las marcas Mercedes y BMW, y de los modelos x1 y clc\". \n\nvas a darmr el nombre del segmento\n\ndespues vas a darme indeas de contenido en formato reel para cada segmento.\n\nvas a darme 8 keywords para cada segmento\n\nSigue este formato de salida para cada campaña:\n\n---\nSEGMENTO 1:\nNOMBRE Segmento: \nDescrição automática (gerada pela IA): \nIDEAS DE CONTENIDO:\nKeyword query: \n\nSEGMENTO 2:\nNOMBRE Segmento: \nDescrição automática (gerada pela IA): \nIDEAS DE CONTENIDO:\nKeyword query: \n\nSEGMENTO 3:\nNOMBRE Segmento: \nDescrição automática (gerada pela IA): \nIDEAS DE CONTENIDO:\nKeyword query: \n\ndevuelve todo en pt de portugal Y USA PARA TODO UN LENGUAJE SIMPLE\n\n"
+            }
+          ]
+        },
+        "batching": {
+          "batchSize": 5
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        1120,
+        -208
+      ],
+      "id": "80e57c28-4a49-49f3-81e7-a4c50df27955",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "jsonSchemaExample": "{\n  \"SEGMENTO_1\": {\n    \"NOMBRE_Segmento\": \"\",\n    \"DESCRIPCION_automatica\": \"\",\n    \"IDEAS_DE_CONTENIDO\": [],\n    \"Keyword_query\": []\n  },\n  \"SEGMENTO_2\": {\n    \"NOMBRE_Segmento\": \"\",\n    \"DESCRIPCION_automatica\": \"\",\n    \"IDEAS_DE_CONTENIDO\": [],\n    \"Keyword_query\": []\n  },\n  \"SEGMENTO_3\": {\n    \"NOMBRE_Segmento\": \"\",\n    \"DESCRIPCION_automatica\": \"\",\n    \"IDEAS_DE_CONTENIDO\": [],\n    \"Keyword_query\": []\n  }\n}\n"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        1280,
+        32
+      ],
+      "id": "b5d11565-34f4-45f7-8b35-80d764dd4a2b",
+      "name": "Structured Output Parser2"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        912,
+        -208
+      ],
+      "id": "b9c768f8-4846-4bf5-acb4-f5721ec93789",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "content": "## I'm a note \nThis flow may look simple, but it is a REST API GET method that, when executed, analyzes the data stored in a database and uses it to create audience segments for marketing campaigns",
+        "height": 480,
+        "width": 1488,
+        "color": 6
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        208,
+        -304
+      ],
+      "typeVersion": 1,
+      "id": "7c819cff-2a27-4429-b41b-6b82839e2857",
+      "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## I'm a note \nThe GET method endpoint of the API would be: https://n8n-n8n.sjw220.easypanel.host/webhook/ads",
+        "width": 592
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        208,
+        192
+      ],
+      "typeVersion": 1,
+      "id": "b36697e4-6ad6-4e71-af00-ca82fba9a4be",
+      "name": "Sticky Note1"
+    }
+  ],
+  "pinData": {
+    "Webhook": [
+      {
+        "json": {
+          "headers": {
+            "host": "n8n-n8n.sjw220.easypanel.host",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
+            "content-length": "68",
+            "accept": "application/json",
+            "accept-encoding": "gzip, deflate, br, zstd",
+            "accept-language": "pt-PT,pt;q=0.9,pt-BR;q=0.8,en;q=0.7,en-US;q=0.6,en-GB;q=0.5",
+            "content-type": "application/json",
+            "origin": "https://ta-01k8hrphh5pzk0dm8vcnbf8sz8-5173.wo-5qm7c7fwicgy3q9n4itxjip1c.w.modal.host",
+            "priority": "u=1, i",
+            "referer": "https://ta-01k8hrphh5pzk0dm8vcnbf8sz8-5173.wo-5qm7c7fwicgy3q9n4itxjip1c.w.modal.host/",
+            "sec-ch-ua": "\"Microsoft Edge\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\"",
+            "sec-fetch-dest": "empty",
+            "sec-fetch-mode": "cors",
+            "sec-fetch-site": "cross-site",
+            "x-forwarded-for": "168.182.214.35",
+            "x-forwarded-host": "n8n-n8n.sjw220.easypanel.host",
+            "x-forwarded-port": "443",
+            "x-forwarded-proto": "https",
+            "x-forwarded-server": "207baab59841",
+            "x-real-ip": "168.182.214.35"
+          },
+          "params": {},
+          "query": {},
+          "body": {
+            "elemento_principal": "ZONA",
+            "timestamp": "2025-10-27T03:11:56.057Z"
+          },
+          "webhookUrl": "https://n8n-n8n.sjw220.easypanel.host/webhook/ads",
+          "executionMode": "production"
+        }
+      }
+    ]
+  },
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "Get many rows2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get many rows2": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model1": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser2": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "c8ed4366-f609-49c5-8f71-438b2bda04e1",
+  "meta": {
+    "instanceId": "537acea3282144cd1a7dcffbae7904876d86d91fed380d2d5f9fcab2834ae1ef"
+  },
+  "id": "Py72ksdFVBZOxkcI",
+  "tags": []
+}
